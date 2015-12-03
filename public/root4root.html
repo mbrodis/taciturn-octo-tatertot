@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rooting 4 Root</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+	body {
+		margin: 40px;
+	}
+
+	#top-nav {
+		display: inline;
+	}
+
+
+
+	#top-nav li {
+		text-decoration: none;
+		display: inline;
+		margin-right: 40px;
+	}
+
+	#top-nav #srfp {
+		text-align: left;
+	}
+
+	#signup-form-container {
+		background-image: url(img/srfp.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		height: 200px;
+	}
+
+	#signup-form-container h1 {
+		margin-left: 350px;
+	}
+
+	#signup-form {
+		margin-top: 100px;
+	}
+
+	#signup-form .input-boxes {
+		display: inline;
+		margin-right: 40px;
+	}
+
+	#signup-form #email {
+		margin-left: 400px;
+	}
+
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav id="top-nav">
+			
+			<ul>
+				<li id="srfp">Stephen Root for President</li>
+				<li><a href="#">Bio</a></li>
+				<li><a href="#">Issues</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Volunteer</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<div id="signup-form-container">
+		<h1 id="signup-heading" class="heading">Let's Get to the Root of this Country's Problems</h1>
+		<div id="signup-form">
+			<form method="POST" action="/voter_signup.php">
+		    	<p class="input-boxes">
+		        	<label for="email"></label>
+		        	<input id="email" name="email" type="email" placeholder="Email Address">
+		    	</p>
+		    	<p class="input-boxes">
+		    		<label for="zip-code"></label>
+		        	<input id="zip-code" name="zip-code" type="text" placeholder="Zip Code">
+		    	</p>
+		    	<p class="input-boxes">
+		    		<label for="state">State</label>
+					<select id="state" name="state">
+						<option>Texas</option>
+					</select>
+				</p>
+				<p class="input-boxes">
+					<button type="submit" value="submit">Join Us</button>
+				</p>
+			</form>
+		</div>
+
+	</div>
+	<main>
+		<section>
+
+			<h1 id="article-heading" class="heading">Uniting the Nation with his Swingline Stapler</h1>
+
+			<article>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</article>
+
+			<aside>
+				<h3>Root News Volume #1</h3>
+				<article>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...
+				</article>
+				<a href="#">read more</a>
+			</aside>
+
+		</section>
+
+	</main>
+	<footer>
+		<p id="james-quote">"I am a cipher, a cipher wrapped in an enigma, smothered in secret sauce."</p>
+		<copyright>Copyright 2015. Commission for goofy politicians.<i class="fa fa-copyright"></i></copyright>
+
+	</footer>
+
+</body>
+</html>
